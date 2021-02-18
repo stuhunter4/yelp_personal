@@ -128,115 +128,39 @@
         <div class="row content">
           <div class="col-sm-2">
             <div class="well dpurp white">
-              <h2>CA COVID-19 Tracker</h2>
-              <p>This dashboard is a personal project aimed to emulate the COVID-19 tracker on kqed.org; for learning purposes only.</p>
-              <p>Use the dropdown menu to select the county in California.</p>
-              <p>Sources:<a href="https://data.ca.gov/dataset/covid-19-cases" target="_blank"> California Open Data Portal &raquo;</a></p>
-              <p><a href="https://www.census.gov/programs-surveys/acs/" target="_blank">2014-2018 American Community Survey. &raquo;</a></p>
-              <form id="slist">
-                <div class="form-group">
-                  <label for="sel1">Select County from list:</label>
-                  <select class="form-control" id="sel">
-                    
-                    <option>Alameda</option>
-                    <option>Alpine</option>
-                    <option>Amador</option>
-                    <option>Butte</option>
-                    <option>Calaveras</option>
-                    <option>Colusa</option>
-                    <option>Contra Costa</option>
-                    <option>Del Norte</option>
-                    <option>El Dorado</option>
-                    <option>Fresno</option>
-                    <option>Glenn</option>
-                    <option>Humboldt</option>
-                    <option>Imperial</option>
-                    <option>Inyo</option>
-                    <option>Kern</option>
-                    <option>Kings</option>
-                    <option>Lake</option>
-                    <option>Lassen</option>
-                    <option>Los Angeles</option>
-                    <option>Madera</option>
-                    <option>Marin</option>
-                    <option>Mariposa</option>
-                    <option>Mendocino</option>
-                    <option>Merced</option>
-                    <option>Modoc</option>
-                    <option>Mono</option>
-                    <option>Monterey</option>
-                    <option>Napa</option>
-                    <option>Nevada</option>
-                    <option>Orange</option>
-                    <option>Placer</option>
-                    <option>Plumas</option>
-                    <option>Riverside</option>
-                    <option>Sacramento</option>
-                    <option>San Benito</option>
-                    <option>San Bernardino</option>
-                    <option>San Diego</option>
-                    <option>San Francisco</option>
-                    <option>San Joaquin</option>
-                    <option>San Luis Obispo</option>
-                    <option>San Mateo</option>
-                    <option>Santa Barbara</option>
-                    <option>Santa Clara</option>
-                    <option>Santa Cruz</option>
-                    <option>Shasta</option>
-                    <option>Sierra</option>
-                    <option>Siskiyou</option>
-                    <option>Solano</option>
-                    <option>Sonoma</option>
-                    <option>Stanislaus</option>
-                    <option>Sutter</option>
-                    <option>Tehama</option>
-                    <option>Trinity</option>
-                    <option>Tulare</option>
-                    <option>Tuolumne</option>
-                    <option>Ventura</option>
-                    <option>Yolo</option>
-                    <option>Yuba</option>
-                  </select>
-                  <br>
-                </div>
-              </form>
+              <h2>Yelp API Test</h2>
+              <p>Data collected using a python function that returns specific search results for a given location, via Yelp API requests</p>
+              <p>Last updated: February 17, 2021</p>
             </div>
           </div>
-          <div class="col-sm-10">
+          <div class="col-sm-10"> 
             <div class="row">
-              <div class="col-sm-6">
-                <div class="well">
-                  <h3></h3>
-                  <div id="plot"></div>
-                  <p></p> 
+              <div class="col-sm-12">
+                <div class="card">
+                  <h3 class="text-center">Top 200 Restaurants near Fremont, California</h3>
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="well">
-                  <h3></h3>
-                  <div id="plot2"></div>
-                  <p></p> 
-                </div>
-              </div>
-            </div>
-  
-            <div class="row">
               <div class="col-sm-12">
                 <div class="well">
                   <div id="table-area" class="table-responsive">
                     <table id="ufo-table" class="table table-striped">
                       <thead>
                         <tr>
-                          <th class="table-head">County</th>
-                          <th class="table-head">Week</th>
-                          <th class="table-head">Week #</th>
-                          <th class="table-head">Total Cases</th>
-                          <th class="table-head">Total Deaths</th>
-                          <th class="table-head">Population</th>
-                          <th class="table-head">Average Cases</th>
-                          <th class="table-head">Avg. Cases per 100k</th>
-                          <th class="table-head">Average Deaths</th>
-                          <th class="table-head">Avg. Deaths per 100k</th>
+                          <th class="table-head">ID</th>
+                          <th class="table-head">Alias</th>
+                          <th class="table-head">Name</th>
+                          <th class="table-head">Is Closed?</th>
+                          <th class="table-head">Review Count</th>
+                          <th class="table-head">Categories</th>
+                          <th class="table-head">Rating</th>
+                          <th class="table-head">Transactions</th>
+                          <th class="table-head">Price</th>
+                          <th class="table-head">Address</th>
+                          <th class="table-head">City</th>
+                          <th class="table-head">Country</th>
+                          <th class="table-head">State</th>
+                          <th class="table-head">Display Address</th>
+                          <th class="table-head">Phone</th>
                         </tr>
                       </thead>
                       <tbody></tbody>
